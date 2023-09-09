@@ -7,6 +7,8 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.Optional;
+
 @RestController
 @RequestMapping("/demo")
 public class OrderController {
@@ -16,7 +18,7 @@ public class OrderController {
 
     @GetMapping(path = "/order/{orderId}",headers = "Accept=application/json")
     public ResponseEntity<Order> getOrder(@PathVariable String orderId){
-        return new ResponseEntity<Order>(orderService.getOrder(orderId), HttpStatus.OK);
+        return new ResponseEntity<>(orderService.getOrder(orderId), HttpStatus.OK);
     }
 
     @PostMapping(path = "/order", headers = "Accept=application/json")
