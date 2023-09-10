@@ -1,4 +1,4 @@
-package com.technocrats.api;
+package com.techflow.api;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

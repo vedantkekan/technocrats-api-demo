@@ -1,7 +1,7 @@
-package com.technocrats.api.service;
+package com.techflow.api.service;
 
-import com.technocrats.api.model.Order;
-import com.technocrats.api.repository.OrderRepository;
+import com.techflow.api.model.Order;
+import com.techflow.api.repository.OrderRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

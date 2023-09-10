@@ -1,4 +1,4 @@
-package com.technocrats.api;
+package com.techflow.api;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

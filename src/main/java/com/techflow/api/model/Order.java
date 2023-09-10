@@ -1,4 +1,4 @@
-package com.technocrats.api.model;
+package com.techflow.api.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 

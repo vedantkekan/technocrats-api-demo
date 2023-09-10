@@ -1,6 +1,6 @@
-package com.technocrats.api.repository;
+package com.techflow.api.repository;
 
-import com.technocrats.api.model.Order;
+import com.techflow.api.model.Order;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

@@ -1,4 +1,4 @@
-package com.technocrats.api.scheduler;
+package com.techflow.api.scheduler;
 
 import org.apache.commons.lang3.time.DateUtils;
 import org.quartz.*;

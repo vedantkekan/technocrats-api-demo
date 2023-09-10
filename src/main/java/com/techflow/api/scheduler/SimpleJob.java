@@ -1,4 +1,4 @@
-package com.technocrats.api.scheduler;
+package com.techflow.api.scheduler;
 
 import org.quartz.Job;
 import org.quartz.JobDataMap;
