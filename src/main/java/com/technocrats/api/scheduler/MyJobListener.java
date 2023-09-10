@@ -3,7 +3,6 @@ package com.technocrats.api.scheduler;
 import org.quartz.JobExecutionContext;
 import org.quartz.JobExecutionException;
 import org.quartz.JobListener;
-import org.quartz.listeners.JobListenerSupport;
 
 public class MyJobListener implements JobListener {
 

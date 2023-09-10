@@ -6,9 +6,6 @@ import org.quartz.impl.StdSchedulerFactory;
 import org.quartz.impl.matchers.KeyMatcher;
 
 import java.util.Date;
-import java.util.List;
-
-import static org.quartz.impl.matchers.GroupMatcher.jobGroupEquals;
 
 public class OrderScheduler {
 
